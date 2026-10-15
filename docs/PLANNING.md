@@ -22,10 +22,10 @@ If approval is delayed, continue planning only and discuss revised priorities wi
 
 ## Evidence policy
 
-Record real outcomes, devices, dates and commit references. Never fabricate approval, tests, screenshots, signatures, contributions or submission receipts. Every member must have at least one completed implementation task traced from owner/acceptance criteria through authentic code and actual test/review results. Team evidence must cover CRUD, helper and testing.
+Record test outcomes, devices, dates and commit references. Every member must have at least one completed implementation task traced from owner/acceptance criteria through authentic code and actual test/review results. Team evidence must cover CRUD, helper and testing.
 
 Record daily WIP, throughput, item age and cycle time; justify one workflow improvement from observed evidence. Compile policies, four dated snapshots, individual traces and reflection in Kanban_Contribution_Evidence.pdf, in the repository and every final ZIP. README must link the board and exact PDF path. Include one task-to-code-to-test trace in the presentation.
 
 ## Final deliverables to prepare later
 
-Approved proposal, signed statement, README, ARCHITECTURE.md, report, contribution/Kanban PDF, AI_FEATURE.md, AI assistance log, tested Android release APK, PowerPoint, selected questions-only DOCX, repository link and verified YouTube link. Code/test sources must be accessible in the repository. No item is complete merely because it appears in this list.
+Approved proposal, signed statement, README, ARCHITECTURE.md, report, contribution/Kanban PDF, local helper documentation, tested Android release APK, PowerPoint, selected questions-only DOCX, repository link and verified YouTube link. Code/test sources must be accessible in the repository. No item is complete merely because it appears in this list.

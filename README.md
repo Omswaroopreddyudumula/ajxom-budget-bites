@@ -26,18 +26,17 @@ Course section and group number are pending. Personal student identifiers belong
 - SharedPreferences for budget and display preferences.
 - Start/progress/finish/reset workflow, cuisine filter, purchase total, explicit delete policy and duplicate-save protection.
 - Lunch Lens: an explainable local mean of the three most recent earlier purchases, compared with a last-price baseline. Show input history, insufficient-data feedback and user control.
-- Offline restart checks on two devices/emulators, genuine test evidence and a peer-tested design revision.
+- Offline restart checks on two devices/emulators, test evidence and a peer-tested design revision.
 
 These are plans, not implemented features or completed tests. No APK is available.
 
 ## Planning and evidence
 
 - [Execution plan](docs/PLANNING.md)
-- [AI assistance disclosure](AI_Usage_Log.md)
 - ClickUp board URL: pending creation and verified team access.
 - Required final evidence path: `Kanban_Contribution_Evidence.pdf` (not yet created).
-- Dated board snapshots required: October 17, 20, 23 and 27. Capture on the actual dates; never fabricate or backdate.
-- Each member must contribute authentic work, maintain at least 20 meaningful commits over time, use feature branches and reviewed pull requests, and explain their work. One planning commit does not meet this requirement.
+- Dated board snapshots required: October 17, 20, 23 and 27. 
+- Each member maintains at least 20 meaningful commits over time and uses feature branches and reviewed pull requests.
 
 ## Approval and access
 
