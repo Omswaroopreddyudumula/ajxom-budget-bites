@@ -14,8 +14,8 @@ The team has selected the Budget Bites brief and undergraduate scope. The propos
 
 | Member | GitHub | Pathway | Responsibilities |
 | --- | --- | --- | --- |
-| Om Swaroop Reddy Udumula | Omswaroopreddyudumula | Undergraduate | Pending team agreement |
-| A.J Orea | ajorea-lab | Undergraduate | Pending team agreement |
+| Om Swaroop Reddy Udumula | Omswaroopreddyudumula | Undergraduate | UI, demo section, documentation |
+| Anton “A.J.” Orea | ajorea-lab | Undergraduate | Data layer, testing, documentation |
 
 Course section and group number are pending. Personal student identifiers belong in the required course submission documents, not repository documentation.
 
