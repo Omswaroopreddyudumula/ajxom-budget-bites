@@ -1,0 +1,1 @@
+Second emulator release: saved 450-cent purchase, force-stop/relaunch, History still shows 450 cents. Airplane mode on; Wi-Fi/data disabled.
