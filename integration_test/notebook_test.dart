@@ -141,4 +141,41 @@ void main() {
     expect(await repo.getPurchases(), isEmpty);
     await repo.close();
   });
+  testWidgets('Prepare labeled on-device restart fixture', (tester) async {
+    final repo = MealDatabase();
+    final meals = await repo.getMeals();
+    final matching = meals.where((m) => m.mealName == 'QA sample receipt demo');
+    final id = matching.isEmpty
+        ? await repo.addMeal(
+            const Meal(
+              mealName: 'QA sample receipt demo',
+              venue: 'Fictional test fixture',
+              cuisine: 'Vegetarian',
+              entreePrice: 450,
+              favorite: true,
+            ),
+          )
+        : matching.first.id!;
+    for (int i = 0; i < 3; i++) {
+      await repo.addPurchase(
+        PurchaseLog(
+          mealId: id,
+          actualPriceMinor: [450, 600, 750][i],
+          purchasedAt: DateTime(2026, 1, i + 1),
+          saveToken: 'qa-restart-$i',
+          note: 'Fictional QA fixture, not a real purchase',
+        ),
+      );
+    }
+    final store = AppStore(repo);
+    await store.load();
+    await store.saveBudget(1250);
+    await store.saveDark(false);
+    await tester.pumpWidget(BudgetBitesApp(store: store));
+    await tester.pumpAndSettle();
+    expect(find.textContaining('Your lunch budget: \$12.50'), findsOneWidget);
+    await tester.tap(find.text('History'));
+    await tester.pumpAndSettle();
+    expect(find.text('\$18.00'), findsOneWidget);
+  });
 }
