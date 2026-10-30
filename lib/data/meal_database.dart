@@ -4,7 +4,7 @@ import 'package:budget_bites/models/meal.dart';
 class MealDatabase{
   static Future<Database> _openMealDatabase() async {
     return openDatabase(
-      join(await getDatabasesPath(), 'meal_favs.db'),
+      join(await getDatabasesPath(), 'meal_history.db'),
       version: 1,
       onCreate: (Database db, int version) async { 
         await db.execute('''
