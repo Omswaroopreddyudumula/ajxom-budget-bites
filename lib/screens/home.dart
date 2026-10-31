@@ -6,6 +6,7 @@ import '../models/purchase_log.dart';
 import '../state/app_store.dart';
 import '../widgets/shared.dart';
 import 'meal_editor.dart';
+import 'meal_history.dart';
 import 'purchase_editor.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,8 +20,6 @@ class _HomeScreenState extends State<HomeScreen> {
   int tab = 0;
   String search = '', cuisine = 'All';
   bool favorites = false;
-  DateTimeRange? period;
-  int? historyMeal;
   Future<void> editMeal([Meal? m]) async {
     await Navigator.push(
       context,
@@ -198,17 +197,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  List<PurchaseLog> get visibleLogs => widget.store.purchases
-      .where(
-        (l) =>
-            (historyMeal == null || l.mealId == historyMeal) &&
-            (period == null ||
-                (!l.purchasedAt.isBefore(period!.start) &&
-                    l.purchasedAt.isBefore(
-                      period!.end.add(const Duration(days: 1)),
-                    ))),
-      )
-      .toList();
   Future<void> deleteLog(PurchaseLog l) async {
     if (!await confirm(
       context,
@@ -243,152 +231,13 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget history() {
-    final logs = visibleLogs;
-    final total = logs.fold<int>(0, (s, l) => s + l.actualPriceMinor);
-    return ListView(
-      padding: const EdgeInsets.all(20),
-      children: [
-        Text(
-          'Purchase history',
-          style: Theme.of(context).textTheme.headlineMedium,
-        ),
-        const SizedBox(height: 8),
-        Text('Your receipts, corrected whenever needed.'),
-        const SizedBox(height: 20),
-        DropdownButtonFormField<int>(
-          initialValue: historyMeal ?? -1,
-          decoration: const InputDecoration(labelText: 'Meal filter'),
-          items: [
-            const DropdownMenuItem(value: -1, child: Text('All meals')),
-            for (final m in widget.store.meals)
-              DropdownMenuItem(value: m.id, child: Text(m.mealName)),
-          ],
-          onChanged: (v) => setState(() => historyMeal = v == -1 ? null : v),
-        ),
-        const SizedBox(height: 12),
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: [
-            OutlinedButton.icon(
-              onPressed: () async {
-                final range = await showDateRangePicker(
-                  context: context,
-                  firstDate: DateTime(2000),
-                  lastDate: DateTime.now(),
-                  initialDateRange: period,
-                );
-                if (range != null && mounted) setState(() => period = range);
-              },
-              icon: const Icon(Icons.date_range),
-              label: Text(
-                period == null
-                    ? 'All dates'
-                    : '${localDate(period!.start)} to ${localDate(period!.end)}',
-              ),
-            ),
-            if (period != null)
-              TextButton(
-                onPressed: () => setState(() => period = null),
-                child: const Text('Clear dates'),
-              ),
-            FilledButton.icon(
-              onPressed: () => purchase(),
-              icon: const Icon(Icons.add),
-              label: const Text('Add purchase'),
-            ),
-          ],
-        ),
-        const SizedBox(height: 16),
-        Card(
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Total spending',
-                  style: Theme.of(context).textTheme.titleMedium,
-                ),
-                Text(
-                  money(total),
-                  style: Theme.of(context).textTheme.displaySmall,
-                ),
-                Text(
-                  '${logs.length} receipts • selected meal and date filters',
-                ),
-              ],
-            ),
-          ),
-        ),
-        if (logs.isEmpty)
-          const EmptyView(
-            'No purchases yet',
-            'Record a purchase or change the filters.',
-          ),
-        for (final l in logs)
-          Card(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  InkWell(
-                    onTap: () => inspectLog(l),
-                    onLongPress: () => purchase(log: l),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 8),
-                      child: Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  widget.store.meal(l.mealId)?.mealName ??
-                                      'Meal',
-                                  style: Theme.of(context).textTheme.titleLarge,
-                                ),
-                                Text(
-                                  '${localDate(l.purchasedAt)} • Receipt #${l.id}',
-                                ),
-                              ],
-                            ),
-                          ),
-                          Text(
-                            money(l.actualPriceMinor),
-                            style: Theme.of(context).textTheme.titleLarge,
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                  if (l.note.isNotEmpty) Text(l.note),
-                  Wrap(
-                    spacing: 8,
-                    children: [
-                      TextButton(
-                        onPressed: () => inspectLog(l),
-                        child: const Text('View receipt'),
-                      ),
-                      TextButton(
-                        onPressed: () => purchase(log: l),
-                        child: const Text('Edit purchase'),
-                      ),
-                      TextButton(
-                        onPressed: () => deleteLog(l),
-                        child: const Text('Delete purchase'),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          ),
-      ],
-    );
-  }
+  Widget history() => MealHistory(
+    store: widget.store,
+    onAdd: () => purchase(),
+    onView: inspectLog,
+    onEdit: (log) => purchase(log: log),
+    onDelete: deleteLog,
+  );
 
   Widget settings() => ListView(
     padding: const EdgeInsets.all(24),
