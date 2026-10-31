@@ -48,6 +48,10 @@ Release output: `build/app/outputs/flutter-apk/app-release.apk`. The coursework 
 
 All money fields use USD with at most two decimal places. A separate new purchase creates a new receipt; repeated pending/retried saves of the same draft do not.
 
+## Presentation video
+
+[AjxOm: Budget Bites — team presentation](https://www.youtube.com/watch?v=x6xAqCNraKo)
+
 ## Evidence and documentation
 
 - [Architecture and schema](ARCHITECTURE.md)
