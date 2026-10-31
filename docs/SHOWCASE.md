@@ -13,7 +13,7 @@ The current format is a detailed visual slide presentation followed by a live ap
 
 ## Timing
 
-Om has about 4–5 minutes in total across the introduction and personal frontend section. A.J. leads the rest of the slide discussion and the complete application demo, targeting about 16–18 minutes including actions. Allow brief questions and rehearse the whole recording within the course's 20–25 minutes. Speaking assignments do not transfer authorship of the code.
+Om has about 4–5 minutes in total across the introduction and personal frontend section. A.J. leads the rest of the slide discussion and the complete application demo, targeting about 16–18 minutes including actions. Allow brief questions and rehearse the whole recording within the course's 20–25 minutes.
 
 ## Selected questions and visible evidence
 
@@ -28,7 +28,7 @@ The questions-only document selects I1, I2, A1, A2, D1, D2, T1, T2, R1, R2 and R
 | R1, R2 | Real contribution history, integration decisions and disclosed evidence gaps |
 | R4 | Helper inputs, mean/baseline, explanation/dismissal, five cases and outlier limitation |
 
-Keep the selected questions document questions-only. Use the same team recording for the presentation and integrated answers. Verify the actual video link and instructor access. Each member follows the required individual upload steps. The published deadline was October 27, 2026 at 11:59 PM Eastern, so follow any instructor-approved late or extension instructions.
+Keep the selected questions document questions-only. Use the same team recording for the presentation and integrated answers. Verify the actual video link and instructor access. The published deadline was October 27, 2026 at 11:59 PM Eastern, so follow any instructor-approved late or extension instructions.
 
 ## Evidence boundaries
 

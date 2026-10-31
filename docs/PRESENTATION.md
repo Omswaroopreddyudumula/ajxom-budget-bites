@@ -12,7 +12,7 @@ The current PowerPoint at `submission/Project1_Presentation.pptx` has 28 slides.
 
 Om's speaking text is about 4–5 minutes total. A.J. carries the remaining technical explanation and full demo, targeting about 16–18 minutes including application actions. Rehearse the combined recording and questions within 20–25 minutes.
 
-The screenshots, code excerpts, diagrams, table and chart remain in the deck. Main speaking paragraphs and speaker notes use the assigned voice, with explicit handoffs. A.J. credits Om for frontend and integration work when explaining the shared application. Presentation leadership does not change code authorship.
+The screenshots, code excerpts, diagrams, table and chart remain in the deck. Main speaking paragraphs and speaker notes use the assigned voice, with explicit handoffs. A.J. credits Om for frontend and integration work when explaining the shared application.
 
 Use [AJs_Demo_Script.md](AJs_Demo_Script.md) after the slides. Om can help operate the emulator while A.J. narrates.
 

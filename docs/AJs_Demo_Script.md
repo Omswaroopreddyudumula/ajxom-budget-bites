@@ -2,7 +2,7 @@
 
 **Speaker:** A.J. throughout the application demo. Om can operate the emulator while A.J. reads.
 
-**Presentation split:** Om speaks on slides 1–4 and 14–16, about 4–5 minutes in total. A.J. leads slides 5–13 and 17–28, then narrates the full app demo. Presenter assignment does not change authorship: A.J. credits Om for frontend and integration work.
+**Presentation split:** Om speaks on slides 1–4 and 14–16, about 4–5 minutes in total. A.J. leads slides 5–13 and 17–28, then narrates the full app demo.
 
 **Order:** Present all 28 slides first, then switch to the installed Android release app. Aim for about 5–6 minutes for this walkthrough, speaking while performing the actions. Rehearse the combined presentation at a comfortable pace and keep the full recording within the course's 20–25 minutes.
 
