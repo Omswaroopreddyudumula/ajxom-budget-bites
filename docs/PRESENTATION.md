@@ -1,14 +1,19 @@
 # Budget Bites presentation
 
-The PowerPoint in `submission/Project1_Presentation.pptx` keeps the existing visual style and has 18 slides:
+The current PowerPoint at `submission/Project1_Presentation.pptx` has 22 slides with full speaking paragraphs on the slides. Speaker labels identify the handoffs.
 
-- 1–3: the selected Budget Bites brief, problem and scope.
-- 4–12: architecture, widgets/state, SQLite, purchase workflow, save protection, Lunch Lens, evaluation, testing and actual ownership.
-- 13: embedded Android release recording of meal create/read/edit/delete.
-- 14: embedded recording of purchase save, receipt view, correction, addition and confirmed deletion.
-- 15: embedded recording of helper explanation/dismissal, draft reset, saved settings and an offline app restart.
-- 16–18: proposed future work, the public GitHub repository and release explanation, and thank you/questions.
+| Slides | Speaker | Content |
+| --- | --- | --- |
+| 1–4 | Om | Introduction, selected prompt, requirements and team approach |
+| 5–10 | A.J. | Original backend foundation, Meal model, related tables, CRUD, money/migration and reliable saves |
+| 11–19 | Om | Frontend, shared state, lifecycle, forms, workflow, helper, evaluation, tests and integration |
+| 20–21 | Om | Future work and the GitHub repository/release |
+| 22 | Om | Handoff from the slides to A.J.'s live application demo |
 
-In PowerPoint desktop, start Slide Show and click each video frame to play. The three MP4s are embedded inside the file. The recordings use fictional local data and have no narration. Both members should narrate their actual work; speaker notes provide talking points and a suggested 23-minute run of show.
+Read the speaking paragraphs and explain the five-case table. The same text is in speaker notes, with mappings to the selected questions. At about 145 words per minute, the slide text takes roughly 16–17 minutes. Rehearse the whole recording, allowing about 5–6 minutes for the live demo and 1–2 minutes for questions, within the required 20–25 minutes.
 
-The clips are parts of the team presentation, not the full required recording. Upload the selected questions before recording, verify the actual video link and follow the individual submission requirements. Existing evidence gaps remain documented; these clips do not recreate historical ClickUp snapshots or independent peer feedback.
+After the slides, switch to the installed Android release app. A.J. reads [the live demo script](AJs_Demo_Script.md) while he or Om operates the emulator. The script gives separate speaking paragraphs and exact controls/fictional values to show. It is a rehearsal plan, not evidence of a completed team recording.
+
+The previous version with three embedded silent clips is preserved in [Git history](https://github.com/Omswaroopreddyudumula/ajxom-budget-bites/blob/afcefcc/submission/Project1_Presentation.pptx). The current version follows the requested slides-then-live-demo format.
+
+Each member should explain the actual work described. Historical board evidence, contribution targets and peer-review limits remain documented. Upload the questions-only selection before recording, verify the final video access and follow individual submission requirements.
