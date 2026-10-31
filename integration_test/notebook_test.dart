@@ -6,6 +6,7 @@ import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 import 'package:budget_bites/data/meal_database.dart';
 import 'package:budget_bites/main.dart';
+import 'package:budget_bites/domain/money.dart';
 import 'package:budget_bites/models/meal.dart';
 import 'package:budget_bites/models/purchase_log.dart';
 import 'package:budget_bites/state/app_store.dart';
@@ -176,6 +177,15 @@ void main() {
     expect(find.textContaining('Your lunch budget: \$12.50'), findsOneWidget);
     await tester.tap(find.text('History'));
     await tester.pumpAndSettle();
-    expect(find.text('\$18.00'), findsOneWidget);
+    // The default database may contain other user/QA receipts. Preserve them.
+    final fixtureTotal = store.purchases
+        .where((log) => log.mealId == id)
+        .fold<int>(0, (sum, log) => sum + log.actualPriceMinor);
+    expect(fixtureTotal, 1800);
+    final allTotal = store.purchases.fold<int>(
+      0,
+      (sum, log) => sum + log.actualPriceMinor,
+    );
+    expect(find.text(money(allTotal)), findsOneWidget);
   });
 }

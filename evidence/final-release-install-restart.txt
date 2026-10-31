@@ -1,0 +1,2 @@
+emulator-5554 release restart PASS ['C\nCampus wrap\nFictional campus cafe\n2026-10-30 • Receipt #1\n$4.50']
+emulator-5556 release restart PASS ['C\nCampus wrap\nFictional campus cafe\n2026-10-30 • Receipt #1\n$4.50']
