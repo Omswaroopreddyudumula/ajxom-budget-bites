@@ -9,7 +9,7 @@ AjxOm's offline meal and purchase notebook for undergraduate Project One. Save m
 | Om Swaroop Reddy Udumula | Omswaroopreddyudumula | UI, demo section, documentation and current integration branch |
 | Anton “A.J.” Orea | ajorea-lab | Original Meal model/database and History page, testing, documentation |
 
-The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. The team reports completing the presentation recording. The final deadline is October 31, 2026, as confirmed by the team.
+The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. 
 
 ## Features
 
@@ -66,10 +66,6 @@ Raw analyzer/test/build logs and actual emulator screenshots are under `evidence
 ## Check the prepared submission package
 
 Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the extracted final package. It checks required deliverables, every manifest file size and SHA-256 checksum, and ZIP-based file integrity (including APK, PPTX and DOCX). It exits with an error for missing or changed files. This is a file-integrity check; manually verify the video link, signatures and course submission receipt.
-
-## Submission status
-
-The app is integrated and tested, and the team reports completing the presentation recording. The team confirmed the revised final deadline as October 31, 2026. A.J. holds the ClickUp evidence. Prepared slides, selected questions, report and contribution evidence are included; signed personal documents remain in the private package. Add the final YouTube link and A.J.’s ClickUp evidence to the submission copy. Both members submit individually in iCollege.
 
 ## Known limits and future work
 

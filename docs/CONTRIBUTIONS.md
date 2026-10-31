@@ -15,10 +15,6 @@ Board: https://app.clickup.com/90141772424/v/g/2kydwjm8-434
 
 The team confirmed on October 31 that its ClickUp evidence is held by A.J. The repository PDF contains code/test traces; the teammate-held screenshots/export accompany the final submission. Their capture dates and contents are not asserted here without inspecting those files.
 
-## Approval and submission
-
-The team confirmed instructor-team approval on October 26 and a revised final deadline of October 31, 2026. The proposal and signed statement are in the private course package. The team reports completing the presentation recording; the final YouTube link will be added after upload. Each member submits individually.
-
 ## October 30 integration completion
 
 A.J.'s final data branch through edcf9b3 is integrated. MealHistory now reads PurchaseLog, passes child IDs to edit/delete actions, uses valid initials, confirms deletes via the parent, and shares AppStore with the editor. Seventeen unit/widget tests plus three integration tests on each emulator pass. This integration and code inspection are not an independent teammate PR approval. The user authorized finalizing and merging the app.
