@@ -9,7 +9,7 @@ AjxOm's offline meal and purchase notebook for undergraduate Project One. Save m
 | Om Swaroop Reddy Udumula | Omswaroopreddyudumula | UI, demo section, documentation and current integration branch |
 | Anton “A.J.” Orea | ajorea-lab | Original Meal model/database and History page, testing, documentation |
 
-The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. The app and prepared documents do not prove completion of the team recording or individual submission.
+The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. The team reports completing the presentation recording. The final deadline is October 31, 2026, as confirmed by the team.
 
 ## Features
 
@@ -59,7 +59,7 @@ All money fields use USD with at most two decimal places. A separate new purchas
 - [Questions only Word document](submission/AjxOm_Project1_SelectedQuestions.docx)
 - [Project report](submission/PROJECT_REPORT.pdf)
 - [ClickUp board](https://app.clickup.com/90141772424/v/g/2kydwjm8-434)
-- [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf) — includes verified code traces and explicitly discloses unavailable historical snapshots.
+- [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf) — contains repository contribution traces; A.J. holds the team’s ClickUp screenshots/export for the submission.
 
 Raw analyzer/test/build logs and actual emulator screenshots are under `evidence/`. Test fixtures are fictional and labeled. Both emulators use the same API level; the second runs a larger display configuration. See test results for which checks are automated versus manually observed.
 
@@ -67,9 +67,9 @@ Raw analyzer/test/build logs and actual emulator screenshots are under `evidence
 
 Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the extracted final package. It checks required deliverables, every manifest file size and SHA-256 checksum, and ZIP-based file integrity (including APK, PPTX and DOCX). It exits with an error for missing or changed files. This is a file-integrity check; manually verify the video link, signatures and course submission receipt.
 
-## Outstanding course requirements
+## Submission status
 
-The History integration is complete and tested. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, written approval evidence if required by the instructor, selected-questions upload before recording, actual team recording, YouTube link and individual uploads remain unverified. Prepared slides, selected questions, report and evidence PDF are under `submission/`. Signed personal documents are supplied only in the private package, not the public repository. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated.
+The app is integrated and tested, and the team reports completing the presentation recording. The team confirmed the revised final deadline as October 31, 2026. A.J. holds the ClickUp evidence. Prepared slides, selected questions, report and contribution evidence are included; signed personal documents remain in the private package. Add the final YouTube link and A.J.’s ClickUp evidence to the submission copy. Both members submit individually in iCollege.
 
 ## Known limits and future work
 

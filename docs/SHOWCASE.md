@@ -1,6 +1,6 @@
 # AjxOm showcase rehearsal
 
-The current format is a detailed visual slide presentation followed by a live application demonstration. Both members must understand the code and explain their actual work. This plan and the script do not prove that the team recording or submission has happened.
+The current format is a detailed visual slide presentation followed by a live application demonstration. The team reports completing its recording; this document retains the presentation plan.
 
 ## Speaker order
 
@@ -28,7 +28,7 @@ The questions-only document selects I1, I2, A1, A2, D1, D2, T1, T2, R1, R2 and R
 | R1, R2 | Real contribution history, integration decisions and disclosed evidence gaps |
 | R4 | Helper inputs, mean/baseline, explanation/dismissal, five cases and outlier limitation |
 
-Keep the selected questions document questions-only. Use the same team recording for the presentation and integrated answers. Verify the actual video link and instructor access. The published deadline was October 27, 2026 at 11:59 PM Eastern, so follow any instructor-approved late or extension instructions.
+Keep the selected questions document questions-only. Use the same team recording for the presentation and integrated answers. Verify the actual video link and instructor access. The team confirmed the revised final deadline as October 31, 2026.
 
 ## Evidence boundaries
 

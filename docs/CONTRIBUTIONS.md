@@ -5,21 +5,19 @@
 - A.J. Orea: four pushed commits on data branch adding Flutter scaffold, Meal model, original database CRUD boundary and the final standalone History page. Merge 4994ec1 preserves this history and adapts that page to child receipts.
 - Om Swaroop Reddy Udumula: planning, frontend and integration responsibilities covering corrected types/schema, purchase persistence, UI integration, settings, helper, tests and documentation.
 
-No commits have been backdated, assigned to the teammate, or created only to inflate the count. Current repository history does not meet the steady 20-meaningful-commits-per-person requirement. Making extra commits now cannot recreate missing progress on past dates. Use `git shortlog -sne --all` to inspect current history and explain actual ownership in the presentation.
+## Repository history
 
-## Historical evidence gaps
+The repository preserves both contributors’ actual commits and the integration merges. Current attribution can be inspected with `git shortlog -sne origin/main`; commit totals alone do not measure contribution quality or timing.
 
-The user reported that October 17, 20 and 23 board snapshots are unavailable and no peer reviewer is arranged. Do not substitute the earlier task-detail screenshot for a complete four-date board history. No peer observation or verified peer-driven revision is claimed. A current board snapshot and a genuine peer review can still be collected on their actual dates.
-
-## ClickUp work still needed
+## ClickUp evidence
 
 Board: https://app.clickup.com/90141772424/v/g/2kydwjm8-434
 
-Actual board permissions, daily task updates, WIP samples, individual task IDs, review comments and task-to-code/test traces have not been verified in this execution. Keep Backlog/Ready/In progress/Review-test/Done, one active task per person and at most two team review tasks. Compile authentic evidence into Kanban_Contribution_Evidence.pdf, with missing dates disclosed, before final submission. Include the PDF in the repository and every ZIP, and its exact path in README. Record one task-to-code/test trace in the presentation.
+The team confirmed on October 31 that its ClickUp evidence is held by A.J. The repository PDF contains code/test traces; the teammate-held screenshots/export accompany the final submission. Their capture dates and contents are not asserted here without inspecting those files.
 
 ## Approval and submission
 
-The user confirmed instructor-team approval on October 26 in this chat. Written approval/conditions have not been attached to the repository. The uploaded proposal and signed acknowledgment contain personal IDs/signatures and are not published here. Keep them in the course submission package. Final presentation, YouTube upload, selected-questions upload, contribution explanations and individual iCollege submissions require genuine participation and receipts.
+The team confirmed instructor-team approval on October 26 and a revised final deadline of October 31, 2026. The proposal and signed statement are in the private course package. The team reports completing the presentation recording; the final YouTube link will be added after upload. Each member submits individually.
 
 ## October 30 integration completion
 

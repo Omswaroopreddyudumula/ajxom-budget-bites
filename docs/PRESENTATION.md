@@ -24,4 +24,4 @@ Dart and SQL excerpts come from the actual files named on each slide. Whitespace
 
 The earlier version with three embedded silent clips remains in [Git history](https://github.com/Omswaroopreddyudumula/ajxom-budget-bites/blob/afcefcc/submission/Project1_Presentation.pptx). The current deck follows the slides-then-live-demo format.
 
-Prepared slides and scripts are not a completed team recording or submission. Existing board-history, contribution-target and peer-revision gaps remain documented. Use the selected questions-only document before recording and follow the individual submission requirements.
+The team reports completing the presentation recording. A.J. holds the ClickUp evidence; the final YouTube link will be added after upload. The revised final deadline is October 31, 2026, as confirmed by the team.

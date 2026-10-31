@@ -16,9 +16,10 @@
 - October 21–23: both entities’ CRUD, settings, activity, filter/aggregate, helper and baseline. Capture October 23 board and initial test evidence.
 - October 24–25: two-device offline/restart testing, helper cases, peer revision and documentation.
 - October 26: verify release APK, prepare slides and upload questions-only Word selection before recording one 20–25 minute team presentation with integrated Q&A.
-- October 27: capture final board, complete evidence PDF and package; every member submits individually by 11:59 PM Eastern and verifies receipt.
+- October 27: original final-board checkpoint.
+- October 31: revised final submission date, confirmed by the team; each member submits individually.
 
-If approval is delayed, continue planning only and discuss revised priorities with the instructor. The final deadline does not automatically move.
+If approval is delayed, continue planning only and discuss revised priorities with the instructor. The team subsequently confirmed an instructor deadline change to October 31.
 
 ## Evidence policy
 
