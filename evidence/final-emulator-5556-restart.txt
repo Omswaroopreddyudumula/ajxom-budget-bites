@@ -1,0 +1,1 @@
+October 30 integrated release install succeeded. Airplane mode on; Wi-Fi and mobile data disabled. Receipt IDs and displayed amounts before and after force-stop/relaunch matched: ["C\nCampus wrap\nFictional campus cafe\n2026-10-30 \u2022 Receipt #1\n$4.50"].

@@ -1,0 +1,1 @@
+Release installed with airplane mode on and Wi-Fi/mobile data disabled. Created QA_Release_Meal through the form, set budget to $14.00 and dark mode, recorded a $4.50 purchase, force-stopped and relaunched. Search showed the saved Meal; History showed receipt #1 and total $4.50. Budget and dark mode survived relaunch. Fixtures are manual QA examples, not actual spending.
