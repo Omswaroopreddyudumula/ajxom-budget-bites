@@ -58,7 +58,7 @@ All money fields use USD with at most two decimal places. A separate new purchas
 - [Prepared PowerPoint](submission/Project1_Presentation.pptx)
 - [Questions only Word document](submission/AjxOm_Project1_SelectedQuestions.docx)
 - [Project report](submission/PROJECT_REPORT.pdf)
-- [ClickUp board](https://app.clickup.com/90141772424/v/g/2kydwjm8-434)
+- [ClickUp board](https://app.clickup.com/90141772424/v/b/2kydwjm8-534)
 - [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf)
 
 Raw analyzer/test/build logs and actual emulator screenshots are under `evidence/`. Test fixtures are fictional and labeled. Both emulators use the same API level; the second runs a larger display configuration. See test results for which checks are automated versus manually observed.

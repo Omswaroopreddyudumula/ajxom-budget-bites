@@ -1,0 +1,11 @@
+{
+  "captureDateEastern": "2026-10-31",
+  "source": "Safari ClickUp UI screenshots",
+  "images": {
+    "task-list.png": "https://app.clickup.com/90141772424/v/l/2kydwjm8-354",
+    "ui-task.png": "https://app.clickup.com/t/90141772424/86bck2xm9",
+    "aj-task.png": "https://app.clickup.com/t/90141772424/86bck2xma",
+    "testing-task.png": "https://app.clickup.com/t/90141772424/86bck3cwq"
+  },
+  "processing": "Browser chrome removed by cropping; screenshot contents unchanged."
+}

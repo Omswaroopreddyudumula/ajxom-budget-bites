@@ -12,3 +12,11 @@ The repository preserves both contributors’ commits and integration merges. Co
 ## October 30 integration completion
 
 A.J.'s final data branch through edcf9b3 is integrated. MealHistory now reads PurchaseLog, passes child IDs to edit/delete actions, uses valid initials, confirms deletes via the parent, and shares AppStore with the editor. Seventeen unit/widget tests plus three integration tests on each emulator pass.
+
+## ClickUp task evidence
+
+- UI development: [86bck2xm9](https://app.clickup.com/t/90141772424/86bck2xm9), assigned to Om.
+- Data layer: [86bck2xma](https://app.clickup.com/t/90141772424/86bck2xma), assigned to A.J.
+- Testing and documentation: [86bck3cwq](https://app.clickup.com/t/90141772424/86bck3cwq), with release screenshots attached by Om.
+
+Actual October 31 task overview and attachment captures are retained in `evidence/clickup-2026-10-31/` and the contribution evidence PDF.
