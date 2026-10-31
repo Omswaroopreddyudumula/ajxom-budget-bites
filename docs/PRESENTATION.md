@@ -1,19 +1,25 @@
-# Budget Bites presentation
+# Budget Bites visual presentation
 
-The current PowerPoint at `submission/Project1_Presentation.pptx` has 22 slides with full speaking paragraphs on the slides. Speaker labels identify the handoffs.
+The current PowerPoint at `submission/Project1_Presentation.pptx` has 28 slides. It keeps the detailed speaking paragraphs and adds real release screenshots, actual code excerpts, editable architecture/database diagrams, the five-case table and a native evaluation chart.
 
 | Slides | Speaker | Content |
 | --- | --- | --- |
-| 1–4 | Om | Introduction, selected prompt, requirements and team approach |
-| 5–10 | A.J. | Original backend foundation, Meal model, related tables, CRUD, money/migration and reliable saves |
-| 11–19 | Om | Frontend, shared state, lifecycle, forms, workflow, helper, evaluation, tests and integration |
-| 20–21 | Om | Future work and the GitHub repository/release |
-| 22 | Om | Handoff from the slides to A.J.'s live application demo |
+| 1–5 | Om | Introduction, chosen prompt, scope, actual screen gallery and architecture |
+| 6–13 | A.J. | Backend foundation, Meal model, relationship, CRUD, migration and actual save-protection code |
+| 14–25 | Om | Frontend, state/lifecycle, editor, reset, receipt correction, helper calculation, evaluation, tests and integration |
+| 26–27 | Om | Future work and GitHub/release |
+| 28 | Om | Handoff to A.J.'s live application demo |
 
-Read the speaking paragraphs and explain the five-case table. The same text is in speaker notes, with mappings to the selected questions. At about 145 words per minute, the slide text takes roughly 16–17 minutes. Rehearse the whole recording, allowing about 5–6 minutes for the live demo and 1–2 minutes for questions, within the required 20–25 minutes.
+Read the main speaking paragraphs. The added visual pages support those explanations with short captions. Explain the relevant code lines rather than reading punctuation aloud. Keep the complete recording, including the live demo and questions, within 20–25 minutes after rehearsal.
 
-After the slides, switch to the installed Android release app. A.J. reads [the live demo script](AJs_Demo_Script.md) while he or Om operates the emulator. The script gives separate speaking paragraphs and exact controls/fictional values to show. It is a rehearsal plan, not evidence of a completed team recording.
+After the slides, switch to the installed release app. A.J. reads [AJs_Demo_Script.md](AJs_Demo_Script.md) while he or Om operates the emulator. The narration and actual responsibilities stay in the requested order.
 
-The previous version with three embedded silent clips is preserved in [Git history](https://github.com/Omswaroopreddyudumula/ajxom-budget-bites/blob/afcefcc/submission/Project1_Presentation.pptx). The current version follows the requested slides-then-live-demo format.
+## Screenshot and code sources
 
-Each member should explain the actual work described. Historical board evidence, contribution targets and peer-review limits remain documented. Upload the questions-only selection before recording, verify the final video access and follow individual submission requirements.
+The presentation embeds real screenshots from the October 30 Android release recordings and genuine final-emulator evidence files. Meals, prices and receipts shown are labeled fictional demonstrations. Some views are cropped to enlarge a control or receipt. No app UI was generated as a mockup.
+
+Dart and SQL excerpts come from the actual files named on each slide. Whitespace is wrapped for slide readability. Test-result excerpts match the retained final logs. The editable error chart uses the three valid designed cases documented in `AI_FEATURE.md`: helper MAE 183.33 cents and last-price baseline MAE 33.67 cents. It does not claim population accuracy.
+
+The earlier version with three embedded silent clips remains in [Git history](https://github.com/Omswaroopreddyudumula/ajxom-budget-bites/blob/afcefcc/submission/Project1_Presentation.pptx). The current deck follows the slides-then-live-demo format.
+
+Prepared slides and scripts are not a completed team recording or submission. Existing board-history, contribution-target and peer-revision gaps remain documented. Use the selected questions-only document before recording and follow the individual submission requirements.

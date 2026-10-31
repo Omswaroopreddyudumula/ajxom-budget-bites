@@ -1,19 +1,19 @@
 # AjxOm showcase rehearsal
 
-The current format is a detailed slide presentation followed by a live application demonstration. Both members must understand the code and explain their actual work. This plan and the script do not prove that the team recording or submission has happened.
+The current format is a detailed visual slide presentation followed by a live application demonstration. Both members must understand the code and explain their actual work. This plan and the script do not prove that the team recording or submission has happened.
 
 ## Speaker order
 
-1. **Om, slides 1–4:** introduce Budget Bites, the chosen prompt, scope and team responsibilities.
-2. **A.J., slides 5–10:** explain the original Meal/database/History foundation and the final shared data design. Distinguish original contributions from later integration changes.
-3. **Om, slides 11–21:** explain frontend behavior, state and lifecycle, forms, purchase workflow, Lunch Lens, evaluation, tests, integration, future work and GitHub.
-4. **Om, slide 22:** hand over to the running application.
+1. **Om, slides 1–5:** introduce Budget Bites, the chosen prompt, scope and team responsibilities.
+2. **A.J., slides 6–13:** explain the original Meal/database/History foundation and the final shared data design. Distinguish original contributions from later integration changes.
+3. **Om, slides 14–27:** explain frontend behavior, state and lifecycle, forms, purchase workflow, Lunch Lens, evaluation, tests, integration, future work and GitHub.
+4. **Om, slide 28:** hand over to the running application.
 5. **A.J., live application:** use [AJs_Demo_Script.md](AJs_Demo_Script.md). Om may operate the emulator while A.J. narrates.
 6. **Both:** answer questions about the actual implementation and contributions.
 
 ## Timing
 
-The roughly 2,400 visible slide words take about 16–17 minutes at 145 words per minute. Reserve 5–6 minutes for the live app walkthrough and 1–2 minutes for questions. Rehearse and adjust delivery so the complete recording remains within 20–25 minutes. Speak during the app actions rather than reading the entire demo script before operating the app.
+The roughly 2,500 words of speaking text and short visual captions take about 17 minutes at 145 words per minute. Reserve 5–6 minutes for the live app walkthrough and 1–2 minutes for questions. Rehearse and adjust delivery so the complete recording remains within 20–25 minutes. Speak during the app actions rather than reading the entire demo script before operating the app.
 
 ## Selected questions and visible evidence
 

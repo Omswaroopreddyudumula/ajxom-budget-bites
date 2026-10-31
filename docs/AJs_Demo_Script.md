@@ -2,7 +2,7 @@
 
 **Speaker:** A.J. throughout the application demo. Om can operate the emulator while A.J. reads.
 
-**Order:** Present all 22 slides first, then switch to the installed Android release app. Aim for about 5–6 minutes for this walkthrough, speaking while performing the actions. Rehearse the combined presentation at a comfortable pace and keep the full recording within the course's 20–25 minutes.
+**Order:** Present all 28 slides first, then switch to the installed Android release app. Aim for about 5–6 minutes for this walkthrough, speaking while performing the actions. Rehearse the combined presentation at a comfortable pace and keep the full recording within the course's 20–25 minutes.
 
 Read the quoted paragraphs. The **Show** lines are operator instructions and are not spoken. These are fictional demonstration amounts, not actual purchases. Keep existing records. Use a new unique demo meal name if “Showcase Lunch” already exists. Do not delete unrelated records.
 
