@@ -4,15 +4,17 @@ The current PowerPoint at `submission/Project1_Presentation.pptx` has 28 slides.
 
 | Slides | Speaker | Content |
 | --- | --- | --- |
-| 1–5 | Om | Introduction, chosen prompt, scope, actual screen gallery and architecture |
-| 6–13 | A.J. | Backend foundation, Meal model, relationship, CRUD, migration and actual save-protection code |
-| 14–25 | Om | Frontend, state/lifecycle, editor, reset, receipt correction, helper calculation, evaluation, tests and integration |
-| 26–27 | Om | Future work and GitHub/release |
-| 28 | Om | Handoff to A.J.'s live application demo |
+| 1–4 | Om | Brief introduction, selected topic, project scope and screen gallery |
+| 5–13 | A.J. | Architecture, backend foundation, model, database relation, CRUD, migration and save protection |
+| 14–16 | Om | Personal frontend contributions: navigation, shared state, lifecycle and meal editor |
+| 17–28 | A.J. | Workflow, receipts, helper, evaluation, testing, integration, future work, GitHub and demo transition |
+| Live app demo | A.J. | Full narrated walkthrough after the slides; Om may operate the emulator |
 
-Read the main speaking paragraphs. The added visual pages support those explanations with short captions. Explain the relevant code lines rather than reading punctuation aloud. Keep the complete recording, including the live demo and questions, within 20–25 minutes after rehearsal.
+Om's speaking text is about 4–5 minutes total. A.J. carries the remaining technical explanation and full demo, targeting about 16–18 minutes including application actions. Rehearse the combined recording and questions within 20–25 minutes.
 
-After the slides, switch to the installed release app. A.J. reads [AJs_Demo_Script.md](AJs_Demo_Script.md) while he or Om operates the emulator. The narration and actual responsibilities stay in the requested order.
+The screenshots, code excerpts, diagrams, table and chart remain in the deck. Main speaking paragraphs and speaker notes use the assigned voice, with explicit handoffs. A.J. credits Om for frontend and integration work when explaining the shared application. Presentation leadership does not change code authorship.
+
+Use [AJs_Demo_Script.md](AJs_Demo_Script.md) after the slides. Om can help operate the emulator while A.J. narrates.
 
 ## Screenshot and code sources
 

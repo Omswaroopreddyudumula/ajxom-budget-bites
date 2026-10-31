@@ -4,16 +4,16 @@ The current format is a detailed visual slide presentation followed by a live ap
 
 ## Speaker order
 
-1. **Om, slides 1–5:** introduce Budget Bites, the chosen prompt, scope and team responsibilities.
-2. **A.J., slides 6–13:** explain the original Meal/database/History foundation and the final shared data design. Distinguish original contributions from later integration changes.
-3. **Om, slides 14–27:** explain frontend behavior, state and lifecycle, forms, purchase workflow, Lunch Lens, evaluation, tests, integration, future work and GitHub.
-4. **Om, slide 28:** hand over to the running application.
-5. **A.J., live application:** use [AJs_Demo_Script.md](AJs_Demo_Script.md). Om may operate the emulator while A.J. narrates.
-6. **Both:** answer questions about the actual implementation and contributions.
+1. **Om, slides 1–4:** brief introduction, chosen topic, requirements and actual screen gallery.
+2. **A.J., slides 5–13:** architecture and backend, including his original Meal/database/History foundation and the final shared data design.
+3. **Om, slides 14–16:** explain his own frontend contributions through navigation, shared state/lifecycle and the meal editor.
+4. **A.J., slides 17–28:** lead the purchase workflow, helper, evaluation, testing, integration, future work, GitHub explanation and demo transition. Credit Om's frontend and integration work accurately.
+5. **A.J., live application:** narrate [AJs_Demo_Script.md](AJs_Demo_Script.md). Om may operate the emulator while A.J. speaks.
+6. **Both:** answer questions about the actual implementation and their individual contributions.
 
 ## Timing
 
-The roughly 2,500 words of speaking text and short visual captions take about 17 minutes at 145 words per minute. Reserve 5–6 minutes for the live app walkthrough and 1–2 minutes for questions. Rehearse and adjust delivery so the complete recording remains within 20–25 minutes. Speak during the app actions rather than reading the entire demo script before operating the app.
+Om has about 4–5 minutes in total across the introduction and personal frontend section. A.J. leads the rest of the slide discussion and the complete application demo, targeting about 16–18 minutes including actions. Allow brief questions and rehearse the whole recording within the course's 20–25 minutes. Speaking assignments do not transfer authorship of the code.
 
 ## Selected questions and visible evidence
 
