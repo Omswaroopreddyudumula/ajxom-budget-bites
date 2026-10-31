@@ -35,6 +35,8 @@ flutter run -d DEVICE_ID
 flutter build apk --release
 ```
 
+Run `./scripts/check.sh` from any directory to install dependencies, analyze the app and run the unit/widget suite with coverage. The command stops on the first failure; device integration tests remain separate.
+
 Release output: `build/app/outputs/flutter-apk/app-release.apk`. The coursework scaffold signs release mode with the local debug certificate. This build is intended for coursework installation, not Play Store publishing. The APK is distributed separately rather than committed as a large binary.
 
 ## User guide
