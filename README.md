@@ -7,9 +7,9 @@ AjxOm's offline meal and purchase notebook for undergraduate Project One. Save m
 | Member | GitHub | Responsibilities |
 | --- | --- | --- |
 | Om Swaroop Reddy Udumula | Omswaroopreddyudumula | UI, demo section, documentation and current integration branch |
-| Anton “A.J.” Orea | ajorea-lab | Original Meal model/database, testing, documentation; separate History UI reported in progress |
+| Anton “A.J.” Orea | ajorea-lab | Original Meal model/database and History page, testing, documentation |
 
-The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. This branch is an integration draft awaiting teammate review, not a claim that the full final submission is complete.
+The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. The app and prepared documents do not prove completion of the team recording or individual submission.
 
 ## Features
 
@@ -53,14 +53,17 @@ All money fields use USD with at most two decimal places. A separate new purchas
 - [Test results and limitations](docs/TEST_RESULTS.md)
 - [Contribution and missing evidence record](docs/CONTRIBUTIONS.md)
 - [Presentation run of show](docs/SHOWCASE.md)
+- [Prepared PowerPoint](submission/Project1_Presentation.pptx)
+- [Questions only Word document](submission/AjxOm_Project1_SelectedQuestions.docx)
+- [Project report](submission/PROJECT_REPORT.pdf)
 - [ClickUp board](https://app.clickup.com/90141772424/v/g/2kydwjm8-434)
-- Required final evidence path: `Kanban_Contribution_Evidence.pdf` — not yet complete; October 17/20/23 board snapshots are unavailable.
+- [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf) — includes verified code traces and explicitly discloses unavailable historical snapshots.
 
 Raw analyzer/test/build logs and actual emulator screenshots are under `evidence/`. Test fixtures are fictional and labeled. Both emulators use the same API level; the second runs a larger display configuration. See test results for which checks are automated versus manually observed.
 
 ## Outstanding course requirements
 
-A.J.'s latest separate History page still needs review/integration if pushed. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, approved-proposal attachment, presentation/slides/recording, selected-questions upload before recording, YouTube link and individual final uploads are still required. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated. Assistance disclosure is retained for the course package.
+The History integration is complete and tested. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, written approval evidence if required by the instructor, selected-questions upload before recording, actual team recording, YouTube link and individual uploads remain unverified. Prepared slides, selected questions, report and evidence PDF are under `submission/`. Signed personal documents are supplied only in the private package, not the public repository. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated. Assistance disclosure is retained for the course package.
 
 ## Known limits and future work
 

@@ -35,3 +35,7 @@ Screenshots genuinely capture the running app; QA fixture purchases are not actu
 ## Remaining limitations
 
 No physical-device run, older-Android run, independent peer task/revision or exhaustive screen-reader/contrast audit. Real storage-full/OS termination during a pending commit are not exhaustively tested. A.J.'s separate History UI has not been received/reviewed; integration requires regression checks. Historical board snapshots are missing and steady contribution targets are not met. Final video/slides, questions upload, ClickUp PDF, written approval attachment and individual upload receipts remain outstanding.
+
+## October 30 final integration
+
+A.J.'s final History page is integrated in lib/screens/meal_history.dart. The original 14 tests plus 3 targeted History checks pass (17 total). Analyzer is clean. Final SQLite/migration/navigation fixture suite passes 3 tests per emulator. Logs: final-analyze.txt, final-unit-widget-tests.txt, final-phone-integration.txt and final-large-integration.txt. The fixture aggregate check now preserves unrelated existing receipts rather than assuming the app database is empty. Final release build and install/restart evidence have separate final-prefixed files. The October 26 coverage percentage above belongs to that older run and is not claimed as current coverage.

@@ -2,7 +2,7 @@
 
 ## Actual repository work
 
-- A.J. Orea: two pushed commits on data branch adding Flutter scaffold, Meal model and original database CRUD boundary. Later unpushed work cannot be counted yet. A.J. reported preparing a History page; integration must preserve and review that work when pushed.
+- A.J. Orea: four pushed commits on data branch adding Flutter scaffold, Meal model, original database CRUD boundary and the final standalone History page. Merge 4994ec1 preserves this history and adapts that page to child receipts.
 - Om Swaroop Reddy Udumula: planning commits and the current feature branch implementing corrected types/schema, purchase persistence, UI integration, settings, helper, tests and documentation with Codex assistance. Commit attribution identifies the account used, not proof of independent unaided authorship.
 
 No commits have been backdated, assigned to the teammate, or created only to inflate the count. Current repository history does not meet the steady 20-meaningful-commits-per-person requirement. Making extra commits now cannot recreate missing progress on past dates. Use `git shortlog -sne --all` to inspect current history and explain actual ownership in the presentation.
@@ -20,3 +20,7 @@ Actual board permissions, daily task updates, WIP samples, individual task IDs, 
 ## Approval and submission
 
 The user confirmed instructor-team approval on October 26 in this chat. Written approval/conditions have not been attached to the repository. The uploaded proposal and signed acknowledgment contain personal IDs/signatures and are not published here. Keep them in the course submission package. Final presentation, YouTube upload, selected-questions upload, contribution explanations and individual iCollege submissions require genuine participation and receipts.
+
+## October 30 integration completion
+
+A.J.'s final data branch through edcf9b3 is integrated. MealHistory now reads PurchaseLog, passes child IDs to edit/delete actions, uses valid initials, confirms deletes via the parent, and shares AppStore with the editor. Seventeen unit/widget tests plus three integration tests on each emulator pass. This integration and code inspection are not an independent teammate PR approval. The user authorized finalizing and merging the app.
