@@ -204,6 +204,7 @@ class _MealHistoryState extends State<MealHistory> {
                           child: const Text('Edit purchase'),
                         ),
                         TextButton.icon(
+                          key: ValueKey('delete-purchase-${log.id}'),
                           onPressed: () => widget.onDelete(log),
                           icon: const Icon(Icons.delete_outline),
                           label: const Text('Delete purchase'),
