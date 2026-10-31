@@ -63,6 +63,10 @@ All money fields use USD with at most two decimal places. A separate new purchas
 
 Raw analyzer/test/build logs and actual emulator screenshots are under `evidence/`. Test fixtures are fictional and labeled. Both emulators use the same API level; the second runs a larger display configuration. See test results for which checks are automated versus manually observed.
 
+## Check the prepared submission package
+
+Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the extracted final package. It checks required deliverables, every manifest file size and SHA-256 checksum, and ZIP-based file integrity (including APK, PPTX and DOCX). It exits with an error for missing or changed files. This is a file-integrity check; manually verify the video link, signatures and course submission receipt.
+
 ## Outstanding course requirements
 
 The History integration is complete and tested. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, written approval evidence if required by the instructor, selected-questions upload before recording, actual team recording, YouTube link and individual uploads remain unverified. Prepared slides, selected questions, report and evidence PDF are under `submission/`. Signed personal documents are supplied only in the private package, not the public repository. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated. Assistance disclosure is retained for the course package.
