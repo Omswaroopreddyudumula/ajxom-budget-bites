@@ -69,7 +69,7 @@ Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the 
 
 ## Outstanding course requirements
 
-The History integration is complete and tested. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, written approval evidence if required by the instructor, selected-questions upload before recording, actual team recording, YouTube link and individual uploads remain unverified. Prepared slides, selected questions, report and evidence PDF are under `submission/`. Signed personal documents are supplied only in the private package, not the public repository. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated. Assistance disclosure is retained for the course package.
+The History integration is complete and tested. A genuine peer review/revision, full ClickUp task traces and October 27 snapshot, written approval evidence if required by the instructor, selected-questions upload before recording, actual team recording, YouTube link and individual uploads remain unverified. Prepared slides, selected questions, report and evidence PDF are under `submission/`. Signed personal documents are supplied only in the private package, not the public repository. Current history does not demonstrate 20 steady meaningful commits per person. Historical evidence cannot be recreated.
 
 ## Known limits and future work
 

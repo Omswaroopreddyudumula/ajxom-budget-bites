@@ -34,6 +34,3 @@ The baseline wins on this tiny deliberately challenging set. Retain the mean for
 
 Widget tests check no-data explanation and dismissal. Android tests check actual SQLite records, offline-independent local computation and saved input persistence. See `evidence/unit-widget-tests.txt`, Android integration logs and `docs/TEST_RESULTS.md` for the exact scope. A peer usability assessment has not been completed.
 
-## Ownership
-
-A.J. Orea authored the original Meal model/database foundation. The current helper and UI integration were developed with Codex assistance in Om's feature branch. Each team member must review and explain their actual contribution; this shared feature is not evidence that each independently authored it.

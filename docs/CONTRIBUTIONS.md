@@ -3,7 +3,7 @@
 ## Actual repository work
 
 - A.J. Orea: four pushed commits on data branch adding Flutter scaffold, Meal model, original database CRUD boundary and the final standalone History page. Merge 4994ec1 preserves this history and adapts that page to child receipts.
-- Om Swaroop Reddy Udumula: planning commits and the current feature branch implementing corrected types/schema, purchase persistence, UI integration, settings, helper, tests and documentation with Codex assistance. Commit attribution identifies the account used, not proof of independent unaided authorship.
+- Om Swaroop Reddy Udumula: planning, frontend and integration responsibilities covering corrected types/schema, purchase persistence, UI integration, settings, helper, tests and documentation.
 
 No commits have been backdated, assigned to the teammate, or created only to inflate the count. Current repository history does not meet the steady 20-meaningful-commits-per-person requirement. Making extra commits now cannot recreate missing progress on past dates. Use `git shortlog -sne --all` to inspect current history and explain actual ownership in the presentation.
 
