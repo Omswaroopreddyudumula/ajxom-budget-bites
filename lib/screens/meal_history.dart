@@ -1,7 +1,7 @@
 import 'package:budget_bites/data/meal_database.dart';
 import 'package:budget_bites/models/meal.dart';
 import 'package:flutter/material.dart';
-
+import 'package:budget_bites/screens/meal_editor.dart';
 class MealHistory extends StatefulWidget { 
   const MealHistory({super.key});
 
@@ -53,14 +53,15 @@ class _MealHistoryState extends State<MealHistory> {
               ),
               subtitle:Text(meal.venue),
               onTap: () {//edit meal
-
+                _MealEditorState();
 
               },
               trailing: IconButton(
                 icon:const Icon(Icons.delete, color: Colors.red),
                 onPressed: () async{
-                
-                  await MealDatabase.deleteMeal(meal.id);
+                  final mealId = meal.id;
+                  if (mealId == null) return;
+                  await MealDatabase.deleteMeal(mealId);
                   await loadMeal();
 
                 },
