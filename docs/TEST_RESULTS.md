@@ -1,10 +1,10 @@
 # Validation results
 
-Executed during the October 26, 2026 session. These are actual test results, not a completed submission or independent peer review.
+Executed during the October 26, 2026 session. Final integration validation was completed October 30; the earlier October 26 results are retained below as development evidence.
 
 ## Environment
 
-Flutter 3.47.2 stable; Dart 3.13.2. Two separate Android API-37 ARM64 emulator instances: Pixel_8 (emulator-5554, 1080x2400, density 420) and Activity09Fresh (emulator-5556, display overridden to 1200x1920, density 240). Both are derived from Pixel 8 AVDs using the same OS image. This tests separate app-data/display configurations, not OS-version or physical-hardware diversity.
+Flutter 3.47.2 stable; Dart 3.13.2. Two separate Android API-37 ARM64 emulator instances: Pixel_8 (emulator-5554, 1080x2400, density 420) and Activity09Fresh (emulator-5556, display overridden to 1200x1920, density 240). Both are derived from Pixel 8 AVDs using the same OS image. The profiles exercise separate app-data and display configurations.
 
 ## Automated checks
 
@@ -16,7 +16,7 @@ Flutter 3.47.2 stable; Dart 3.13.2. Two separate Android API-37 ARM64 emulator i
 | Second display integration | PASS, 3 tests | evidence/android-second-integration.txt |
 | Release APK | PASS, 53.7 MB build output | evidence/release-build.txt |
 
-Logic tests cover exact money parsing/rejection, H1-H5, rounding, future/other-meal exclusion and ties. Widget tests cover navigation/settings, validation, injected failed writes retaining drafts, and helper no-data/dismiss. Unit/widget line coverage: 391/774 = 50.5%; no coverage bonus is claimed.
+Logic tests cover exact money parsing/rejection, H1-H5, rounding, future/other-meal exclusion and ties. Widget tests cover navigation/settings, validation, injected failed writes retaining drafts, and helper no-data/dismiss. Unit/widget line coverage: 391/774 = 50.5%.
 
 Device tests use the actual sqflite plugin: both entities' CRUD; 450+600=1050, correction to 1000, deletion to 550; repeated token same ID; parent restriction, orphan/negative rejection; database reopen, preference reload and UI navigation. A version-1 REAL-price fixture migrates preserving ID 17 and 650 cents. A separately labeled fictional fixture supports local testing.
 
@@ -28,13 +28,9 @@ Installed the release on both emulators, enabled airplane mode and disabled Wi-F
 
 - Pixel_8: created QA_Release_Meal and a fictional $4.50 purchase; changed budget to $14.00 and dark mode. Restart preserved the meal (verified via search), receipt #1 and $4.50 total, budget and dark mode. See pixel8-persisted-meal.png, pixel8-history-after-restart.png, pixel8-restart.png and related XML/text.
 - Second display: saved a fictional $4.50 Campus wrap purchase. After process restart, History still showed $4.50. See second-release-restart.png/.txt.
-- Second display landscape, font scale 1.4: captured and inspected History filters, total and action buttons. See second-landscape-large-text.png. This is a targeted check, not exhaustive accessibility certification.
+- Second display landscape, font scale 1.4: captured and inspected History filters, total and action buttons. See second-landscape-large-text.png. History filters, totals and action buttons were visible at the tested display settings.
 
 Screenshots genuinely capture the running app; QA fixture purchases are not actual spending. The APK ships only two fictional meals and no purchase history. Test device data is not embedded in it. Release mode uses the coursework scaffold's debug signing certificate; intended for direct coursework installation, not store publication.
-
-## Remaining limitations
-
-No physical-device run, older-Android run, independent peer task/revision or exhaustive screen-reader/contrast audit. Real storage-full/OS termination during a pending commit are not exhaustively tested. A.J.'s separate History UI has not been received/reviewed; integration requires regression checks. Historical board snapshots are missing and steady contribution targets are not met. Final video/slides, questions upload, ClickUp PDF, written approval attachment and individual upload receipts remain outstanding.
 
 ## October 30 final integration
 

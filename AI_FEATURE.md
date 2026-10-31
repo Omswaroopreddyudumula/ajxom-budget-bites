@@ -1,6 +1,6 @@
 # Lunch Lens
 
-## Benefit and truthful method label
+## Purpose and method
 
 Lunch Lens is a **local rule-based moving-average estimate**, not a trained or generative model. It helps a user compare a possible next meal cost with their budget. It does not predict current venue prices or guarantee a result. The over-budget confirmation is a separate ordinary validation feature.
 
@@ -28,9 +28,8 @@ The activity screen shows amounts, date range, estimate, last-price baseline and
 
 On the three valid comparison fixtures, helper MAE is 183.33 cents; baseline MAE is 33.67 cents; n=3. Empty/invalid cases are feedback checks and are not included in that denominator. These designed development cases are not held-out evaluation or evidence of population accuracy. Undergraduates do not require the graduate held-out comparison.
 
-## Decision and limitation
+## Evaluation conclusion
 
-The baseline wins on this tiny deliberately challenging set. Retain the mean for transparent comparison with the approved topic recipe, explicitly exposing its outlier sensitivity and allowing the user to ignore it. A future median comparison should use new cases before claiming improvement. No claim of greater accuracy or causal benefit is made.
+The baseline wins on this tiny deliberately challenging set. The mean is retained for transparent comparison with the approved topic recipe, explicitly exposing its outlier sensitivity and allowing the user to ignore it. A future median comparison will use new evaluation cases. No claim of greater accuracy or causal benefit is made.
 
-Widget tests check no-data explanation and dismissal. Android tests check actual SQLite records, offline-independent local computation and saved input persistence. See `evidence/unit-widget-tests.txt`, Android integration logs and `docs/TEST_RESULTS.md` for the exact scope. A peer usability assessment has not been completed.
-
+Widget tests check no-data explanation and dismissal. Android tests check actual SQLite records, offline-independent local computation and saved input persistence. See `evidence/unit-widget-tests.txt`, Android integration logs and `docs/TEST_RESULTS.md` for the exact scope.

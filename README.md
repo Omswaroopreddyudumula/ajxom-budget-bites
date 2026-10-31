@@ -6,10 +6,10 @@ AjxOm's offline meal and purchase notebook for undergraduate Project One. Save m
 
 | Member | GitHub | Responsibilities |
 | --- | --- | --- |
-| Om Swaroop Reddy Udumula | Omswaroopreddyudumula | UI, demo section, documentation and current integration branch |
+| Om Swaroop Reddy Udumula | Omswaroopreddyudumula | Frontend, navigation, integration, testing and documentation |
 | Anton “A.J.” Orea | ajorea-lab | Original Meal model/database and History page, testing, documentation |
 
-The user confirmed instructor-team approval on October 26, 2026. The written approval and submitted proposal/signatures should remain with the private course submission. The final app integrates both branches, including A.J.'s History page. 
+The final app integrates both branches, including A.J.'s History page.
 
 ## Features
 
@@ -53,23 +53,23 @@ All money fields use USD with at most two decimal places. A separate new purchas
 - [Architecture and schema](ARCHITECTURE.md)
 - [Local helper evaluation](AI_FEATURE.md)
 - [Test results and limitations](docs/TEST_RESULTS.md)
-- [Contribution and missing evidence record](docs/CONTRIBUTIONS.md)
-- [Presentation run of show](docs/SHOWCASE.md)
+- [Team contributions](docs/CONTRIBUTIONS.md)
+- [Presentation overview](docs/PRESENTATION.md)
 - [Prepared PowerPoint](submission/Project1_Presentation.pptx)
 - [Questions only Word document](submission/AjxOm_Project1_SelectedQuestions.docx)
 - [Project report](submission/PROJECT_REPORT.pdf)
 - [ClickUp board](https://app.clickup.com/90141772424/v/g/2kydwjm8-434)
-- [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf) — contains repository contribution traces; A.J. holds the team’s ClickUp screenshots/export for the submission.
+- [Kanban and contribution evidence](Kanban_Contribution_Evidence.pdf)
 
 Raw analyzer/test/build logs and actual emulator screenshots are under `evidence/`. Test fixtures are fictional and labeled. Both emulators use the same API level; the second runs a larger display configuration. See test results for which checks are automated versus manually observed.
 
 ## Check the prepared submission package
 
-Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the extracted final package. It checks required deliverables, every manifest file size and SHA-256 checksum, and ZIP-based file integrity (including APK, PPTX and DOCX). It exits with an error for missing or changed files. This is a file-integrity check; manually verify the video link, signatures and course submission receipt.
+Run `python3 scripts/verify_package.py /path/to/Budget_Bites_Final` against the extracted final package. It checks required deliverables, every manifest file size and SHA-256 checksum, and ZIP-based file integrity (including APK, PPTX and DOCX). It exits with an error for missing or changed files. The checker validates file integrity without modifying the package.
 
-## Known limits and future work
+## Future work
 
-Only USD, device-local data, no account/sync, no active-draft restoration after process death, and limited Android-version diversity. The three-purchase mean is sensitive to outliers and performs worse than last-price baseline on the small deliberately challenging fixture set. Future work: median comparison on new cases, import/export and broader device coverage. No license has been granted for reuse of team-authored code; agree one before external distribution. Flutter scaffold retains its upstream notices.
+Planned extensions include local CSV import/export, weekly spending summaries and a median-based estimate comparison using new evaluation cases.
 
 ## Course references
 

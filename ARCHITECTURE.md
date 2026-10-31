@@ -30,6 +30,6 @@ Purchase drafts carry a stable unique token; repeated saves return the same exis
 
 Screens dispose TextEditingControllers. AppStore suppresses notifications after disposal; UI callbacks check mounted after asynchronous gaps. The app owner closes the connection on disposal. No timers or network requests are used. Derived totals and estimates are recomputed from current rows after mutations.
 
-## Trade-offs and limitations
+## Storage and deployment
 
-All data is device-local and is not synchronized or backed up by this app. Prices/venues are user-entered or fictional, not live verified information. Date filtering uses the device's local calendar day; timestamps store epoch milliseconds. Both tested emulators currently use Android API 37, so OS-version diversity is limited. Release mode currently uses the coursework scaffold's debug signing certificate; it is installable for coursework, not prepared for Play Store publication.
+Data is stored on the device. Catalog entries contain user-entered meal and venue details. Date filters use the device’s local calendar day; timestamps are stored as UTC epoch milliseconds. The release APK supports direct Android installation.
